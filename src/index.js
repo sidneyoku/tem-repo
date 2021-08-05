@@ -6,7 +6,7 @@ import { Home } from "./templates/Home/Home";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home tem-uma-prop-aqui="PROPPP" />
+    <Home tem-uma-prop-aqui="PROPPP" numberIncrement={2} />
   </React.StrictMode>,
   document.getElementById("root")
 );
